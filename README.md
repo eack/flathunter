@@ -1,5 +1,8 @@
 # Python Flathunter-Helper
 
+## Info
+This is a fork from [flathunter](https://github.com/NodyHub/flathunter). flathunter is a brilliant tool, that scans flatportals and sends notifications via Telegram when new exposes arrive.
+
 ## Setup
 
 ### Virtual Environment (Optional)
@@ -48,6 +51,14 @@ $ curl https://api.telegram.org/bot[BOT-TOKEN]/getUpdates
 #### Google API
 To use the distance calculation feature a [Google API-Key](https://developers.google.com/maps/documentation/javascript/get-api-key) is needed.
 
+## Todos
+
+- [ ] Add Support for Ebay-Kleinanzeigen.de
+- [ ] Add Support for immonet.de
+- [ ] Add Support for immowelt.de
+- [ ] Add option in config to hide preview image
+
+If you need a new feature feel free to create a new issue.
 
 ## Contributers
 - [@NodyHub](https://github.com/NodyHub)
