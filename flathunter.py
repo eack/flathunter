@@ -8,6 +8,7 @@ import time
 import yaml
 from flathunter.crawl_immobilienscout import CrawlImmobilienscout
 from flathunter.crawl_wggesucht import CrawlWgGesucht
+from flathunter.crawl_ebaykleinanzeigen import CrawlEbayKleinanzeigen
 from flathunter.idmaintainer import IdMaintainer
 from flathunter.hunter import Hunter
 
@@ -36,7 +37,7 @@ __log__ = logging.getLogger(__name__)
 
 
 def launch_flat_hunt(config):
-    searchers = [CrawlImmobilienscout(), CrawlWgGesucht()]
+    searchers = [CrawlImmobilienscout(), CrawlWgGesucht(), CrawlEbayKleinanzeigen()]
     id_watch = IdMaintainer('%s/processed_ids.db' % os.path.dirname(os.path.abspath(__file__)))
 
     hunter = Hunter()

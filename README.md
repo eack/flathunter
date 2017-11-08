@@ -53,9 +53,9 @@ To use the distance calculation feature a [Google API-Key](https://developers.go
 
 ## Todos
 
-- [ ] Add Support for Ebay-Kleinanzeigen.de
-- [ ] Add Support for immonet.de
-- [ ] Add Support for immowelt.de
+- [X] Add support for ebay-kleinanzeigen.de (need some code improvement)
+- [ ] Add support for immonet.de
+- [ ] Add support for immowelt.de
 - [ ] Add option in config to hide preview image
 
 If you need a new feature feel free to create a new issue.
