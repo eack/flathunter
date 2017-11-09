@@ -49,7 +49,7 @@ class CrawlImmonet:
         base_url = "https://www.immonet.de"
 
         similar_objects = soup.find(id='similar-objects-box')
-        if similar_objects not None:
+        if similar_objects:
             articles = similar_objects.find_all_previous(class_='col-xs-12 place-over-understitial sel-bg-gray-lighter')
         else:
             articles = soup.find_all_previous(class_='col-xs-12 place-over-understitial sel-bg-gray-lighter')
