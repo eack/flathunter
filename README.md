@@ -3,6 +3,13 @@
 ## Info
 This is a fork from [flathunter](https://github.com/NodyHub/flathunter). flathunter is a brilliant tool, that scans flatportals and sends notifications via Telegram when new exposes arrive.
 
+## Supported platforms
+- [ImmobilienScout24](https://www.immobilienscout24.de)
+- [WG-gesucht](http://www.wg-gesucht.de)
+- [ebay-kleinanzeigen](https://www.ebay-kleinanzeigen.de)
+- [immonet](https://www.immonet.de)
+- [immowelt](https://www.immowelt.de/)
+
 ## Setup
 
 ### Virtual Environment (Optional)
@@ -53,9 +60,6 @@ To use the distance calculation feature a [Google API-Key](https://developers.go
 
 ## Todos
 
-- [X] Add support for ebay-kleinanzeigen.de (need some code improvement)
-- [ ] Add support for immonet.de
-- [ ] Add support for immowelt.de
 - [ ] Add option in config to hide preview image
 
 If you need a new feature feel free to create a new issue.
@@ -64,5 +68,6 @@ If you need a new feature feel free to create a new issue.
 - [@NodyHub](https://github.com/NodyHub)
 - Bene
 - [@Cugu](https://github.com/Cugu)
+- [@eack](https://github.com/eack)
 
 
