@@ -60,6 +60,7 @@ To use the distance calculation feature a [Google API-Key](https://developers.go
 
 ## Todos
 
+- [ ] Add better error handling to crawlers
 - [ ] Add option in config to hide preview image
 
 If you need a new feature feel free to create a new issue.
